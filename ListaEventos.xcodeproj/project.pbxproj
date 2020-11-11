@@ -15,6 +15,8 @@
 		3D49766F255B2C5B00BED9BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D49766D255B2C5B00BED9BA /* LaunchScreen.storyboard */; };
 		3D49767A255B2C5B00BED9BA /* ListaEventosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D497679255B2C5B00BED9BA /* ListaEventosTests.swift */; };
 		3D497685255B2C5B00BED9BA /* ListaEventosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D497684255B2C5B00BED9BA /* ListaEventosUITests.swift */; };
+		3D497693255B3CE700BED9BA /* Evento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D497692255B3CE700BED9BA /* Evento.swift */; };
+		3D497695255B3EBC00BED9BA /* CeldaEventoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D497694255B3EBC00BED9BA /* CeldaEventoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3D497680255B2C5B00BED9BA /* ListaEventosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListaEventosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D497684255B2C5B00BED9BA /* ListaEventosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaEventosUITests.swift; sourceTree = "<group>"; };
 		3D497686255B2C5B00BED9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D497692255B3CE700BED9BA /* Evento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evento.swift; sourceTree = "<group>"; };
+		3D497694255B3EBC00BED9BA /* CeldaEventoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaEventoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3D49766B255B2C5B00BED9BA /* Assets.xcassets */,
 				3D49766D255B2C5B00BED9BA /* LaunchScreen.storyboard */,
 				3D497670255B2C5B00BED9BA /* Info.plist */,
+				3D497692255B3CE700BED9BA /* Evento.swift */,
+				3D497694255B3EBC00BED9BA /* CeldaEventoController.swift */,
 			);
 			path = ListaEventos;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D497693255B3CE700BED9BA /* Evento.swift in Sources */,
 				3D497667255B2C4C00BED9BA /* ViewController.swift in Sources */,
 				3D497663255B2C4C00BED9BA /* AppDelegate.swift in Sources */,
+				3D497695255B3EBC00BED9BA /* CeldaEventoController.swift in Sources */,
 				3D497665255B2C4C00BED9BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
